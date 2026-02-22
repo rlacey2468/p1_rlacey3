@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="turtlesim" type="turtlesim_node" name="turtlesim" output="screen"/>
+  <node pkg="p1_rlacey3" type="initials_draw.py" name="initials_draw" output="screen"/>
+</launch>
